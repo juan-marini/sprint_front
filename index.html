@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparky</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="./js/script.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header class="header-page">
+        <a class="header-page-sparky" href="#sparky">Sparky</a>
+        <nav class="header-page-menu">
+            <ul>
+                <li><a class="header-page-nav" href="#robot">Robô</a></li>
+                <li><a class="header-page-nav" href="">Robocup</a></li>
+                <li><a class="header-page-nav" href="">Horizon</a></li>
+                <li><a class="header-page-nav" href="">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="presentation" id="sparky">
+            <div class="presentation-box">
+                <h1 class="presentation-title">Sparky</h1>
+                <p class="presentation-text">Conheça Sparky, um robô de combate desenvolvido pela equipe Horizon da 
+                                             Faculdade de Informática e Administração Paulista (FIAP).
+                </p>
+                <div class="presentation-square">
+                    <a class="presentation-link" href="#robot">Mais Informações</a>
+                </div>
+            </div>
+        </section>
+        <section class="robot" id="robot">
+            <div class="robot-container">
+                <h2 class="robot-title">Robô</h2>
+                <p class="robot-text">Observe a galeria de imagens do Sparky!</p>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/imagem1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/imagem2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/imagem3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/imagem1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/imagem2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/imagem3.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>                  
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

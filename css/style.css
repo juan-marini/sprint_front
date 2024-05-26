@@ -1,0 +1,29 @@
+@import url("header.css");
+@import url("main.css");
+@import url("section.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--first-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-text);
+    color: var(--font-color);
+}
+
+:root {
+    --first-color: #151515;
+    --second-color: #F9B00B;
+    --font-color: #ddd9ce;
+    --font-text: "Kanit", serif;
+    --font-title: "Audiowide", serif;
+    --font-size-title: 90px;
+    --font-size-text: 20px;
+}
